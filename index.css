@@ -1,0 +1,139 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top{
+    color:rgb(27, 34, 29);
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite ;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 60px;
+    border:2px solid black;
+    border-radius: 10px;
+    transition: all 1s 0.2 ease-in;
+    -moz-transition: all 1s 0.2 ease-in;
+    -webkit-transition: all 1s 0.2 ease-in;
+}
+@keyframes example {
+    0%   {background-image: linear-gradient(to right, red, yellow);}
+   10%   {background-image: linear-gradient(to right, red, yellow);}
+   25%   {background-image: linear-gradient(to right, yellow, blue);}
+   40%   {background-image: linear-gradient(to right, blue, purple);}
+   60%   {background-image: linear-gradient(to right, purple, green);}
+   80%   {background-image: linear-gradient(to right, green,orangered);}
+  100%   {background-image: linear-gradient(to right, orangered,red);}
+  }
+#content{
+    width: 100%;
+    overflow: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.so1{
+    width: 33%;
+    background-image: linear-gradient(to right, #0e6dea,whitesmoke);
+    margin: 10px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    border:2px solid black;
+    border-radius: 10px;
+}
+.so2{
+    width: 33%;
+    /* background-color: #ea4869; */
+    background-image: linear-gradient(to right, #ea4869, orangered);
+    margin: 10px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    border:2px solid black;
+    border-radius: 10px;
+}
+.so3{
+    width: 33%;
+    /* background-color: #55ef32; */
+    background-image: linear-gradient(to right, #81a8d4, rgb(133, 129, 141));
+    margin: 10px;
+    /* float:right; */
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    border:2px solid black;
+    border-radius: 10px;
+}
+.bieudo{
+    width: 100%;
+    overflow: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.post{
+    width: 60%;
+    background-image: linear-gradient(to right, rgb(98, 108, 114), rgb(22, 137, 245));
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 460px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    font-weight: 700;
+}
+.chiacot{
+    background-color: rgb(235, 116, 36);
+    width: 60px;
+    height: var(--percent);
+    text-align: center;
+    
+}
+.sidebar{
+    width: 40%;
+    margin: 0 10px;
+}
+#led1,#led2{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.trai{
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 30px;
+}
+.phai{
+    padding: 20px 0px;
+}
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.nav-list{
+    padding-left: 0;
+}
+.nav-item{
+    color:white;
+    display: inline-block;
+    margin: 0px 8px;
+    font-weight: 600;
+}
+button:hover{
+    background-color: rgb(92, 165, 224);
+}
+button{
+    border: 1px solid black;
+    border-radius: 2px;
+}
